@@ -1,3 +1,7 @@
+import 'dart:math' as math;
+import 'dart:ui' as ui;
+
+import 'package:flutter/material.dart';
 
 /// 背景水印画笔
 class BackgroundWaterMarkerPainter extends CustomPainter {
@@ -60,11 +64,10 @@ class BackgroundWaterMarkerPainter extends CustomPainter {
   }
 }
 
-
 /// 背景水印器
-/// 
+///
 /// @author luodong
-/// 
+///
 /// ```
 /// BackgroundWaterMarker(
 ///   text: '我的水印文字',
@@ -114,3 +117,4 @@ class BackgroundWaterMarker extends StatelessWidget {
       ],
     );
   }
+}
